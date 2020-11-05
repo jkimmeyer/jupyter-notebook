@@ -1,0 +1,33 @@
+
+# IDE related
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+workspace/
+workspace.xml
+*.swp
+.metadata/
+.projects
+.code-workspace
+.vscode/
+
+
+# logs and temp data
+log
+logs
+temp
+*.tmp
+*.log
+thumbs.db
+
+# builds
+out/
+dist/
+
+# private space and other related things
+/private/
+/secret/
+cert/
+key/
