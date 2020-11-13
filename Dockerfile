@@ -1,13 +1,9 @@
 FROM jupyter/base-notebook
 
 # Install required packages on top of base Jupyter image
-RUN pip install --no-cache \
-   scipy \
-   numpy \
-   pandas \
-   scikit-learn \
-   matplotlib \
-   tensorflow
+COPY ./requirements.txt /opt/app/requirements.txt
+WORKDIR /opt/app
+RUN pip install --no-cache -r requirements.txt
 
 ARG NB_USER
 ARG NB_UID
@@ -18,4 +14,4 @@ WORKDIR ${HOME}
 USER ${USER}
 
 # Copy all files (current directory onwards) into the image
-COPY ./index.ipynb /home/${NB_USER}/work
+COPY . /home/${NB_USER}/work
