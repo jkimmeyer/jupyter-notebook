@@ -4,3 +4,4 @@
 # you can also add a specific version, like the previous working numpy build for windows
 # numpy==1.19.3
 # to see the currently installed dependencies, call pip freeze
+jupyter-notebookparams===0.0.4
