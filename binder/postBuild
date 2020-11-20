@@ -3,4 +3,4 @@ set -eux
 
 env
 pwd
-pip install .
+pip install ../requirements.txt
