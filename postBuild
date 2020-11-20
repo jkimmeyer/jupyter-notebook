@@ -1,6 +1,0 @@
-#!/bin/bash
-set -eux
-
-env
-pwd
-pip install --no-cache -r requirements.txt
