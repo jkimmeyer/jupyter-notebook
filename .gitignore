@@ -13,7 +13,6 @@ workspace.xml
 .code-workspace
 .vscode/
 
-
 # logs and temp data
 log
 logs
@@ -25,6 +24,9 @@ thumbs.db
 # builds
 out/
 dist/
+
+# caches
+__pycache__
 
 # private space and other related things
 /private/

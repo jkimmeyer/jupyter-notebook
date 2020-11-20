@@ -1,0 +1,6 @@
+# add requirements by entering their name in a new line
+# without a version, the latest dependency is added. Example:
+# Flask
+# you can also add a specific version, like the previous working numpy build for windows
+# numpy==1.19.3
+# to see the currently installed dependencies, call pip freeze
