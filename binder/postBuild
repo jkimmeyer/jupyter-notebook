@@ -3,4 +3,4 @@ set -eux
 
 env
 pwd
-pip install ../requirements.txt
+pip install --no-cache -r requirements.txt
